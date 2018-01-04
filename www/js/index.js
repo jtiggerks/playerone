@@ -49,7 +49,7 @@ var app = {
         var jsonobject = JSON.parse(jsonstring);
         URL_APP = jsonobject.notification.payload.additionalData.foo;
 
-        var urlfull= 'http://www.player.viradinha.com.br?p=1&u='+URL_APP+'&idd='+device.uuid;        
+        var urlfull= 'http://player.viradinha.com.br?p=1&u='+URL_APP+'&idd='+device.uuid;        
   
         location.href = urlfull+device.uuid;
     };
