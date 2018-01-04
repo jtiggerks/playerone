@@ -30,7 +30,7 @@ var app = {
     onDeviceReady: function() {
  
     AdMob.createBanner({
-        adId : "ca-app-pub-6535632114245977/4784352239",
+        adId : "ca-app-pub-6833525801886116/3007100668",
         position : AdMob.AD_POSITION.BOTTOM_CENTER,
         autoShow : true
     });
