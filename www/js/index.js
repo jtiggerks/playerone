@@ -35,12 +35,7 @@ var app = {
         autoShow : true
     });
 
-    AdMob.prepareInterstitial({
-        adId:'ca-app-pub-6535632114245977/5031764246', 
-        autoShow:true
-    });
-
-    
+   
    
 
     var notificationOpenedCallback = function(jsonData)
