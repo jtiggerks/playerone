@@ -65,7 +65,7 @@ var app = {
 
     app.receivedEvent('deviceready');
 
-    var urlfull= 'http://www.player.viradinha.com.br/?idd='+device.uuid;
+    var urlfull= 'http://player.viradinha.com.br/?idd='+device.uuid;
     location.href = urlfull;
 
     },receivedEvent: function(id)
